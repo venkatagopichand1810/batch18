@@ -1,0 +1,68 @@
+what is css and why it is used
+different ways to apply css to the webpage
+what is diff inline, internal and external css
+what is diff id and class
+what is universal selector 
+what is grouping selector
+what is css combinators..
+diff child selecotor and descendent selector
+diff b/w general sibling selector and adjust sibling selector 
+how do we center the div element horizontally and vertically center
+what is diff b/w visisblity:hidden and display: none;
+what are the pseudo-classes in css and give the examples 
+what are the pseudo-elemetns in css and give the examples 
+diff b/w px em rem % vm and vh units 
+how to stack one image on top of another image 
+what is z-index 
+what is image sprites 
+what is picture element 
+diff b/w inline, block and inline-block 
+diff b/w grid and flex 
+flex all the properties 
+grid all the properties 
+what is float and clearfix 
+what is overflow properties 
+what is media query and give syntax, how to create mobile first application using media query
+how can we make our website responsiveness 
+what is box-sizing: border-box 
+what is opacity
+what is word-wrap
+what is box model and its usage 
+diff b/w border, margin and padding 
+how to apply multiple background images using css
+what are different poistions in css 
+diff b/w sticky and fixed
+diff b/w relative and absolute 
+how we can make an element disapper but still take up the space 
+diff b/w hover, active and focus 
+what are the css3 features
+what is @keyframe where we will use it 
+what is white-space property 
+what are diff layouts in css 
+what is column layout in css
+what is attribute selector in css and how to select the input attribute 
+what is text-overflow: ellipsis 
+what is calc() function in css 
+what is !important in css
+how to create box in css
+how to center the element inside the nested div using flex
+diff b/w pseudo-classes and pseudo elements 
+how are different backgrounds, and how to stop repeating images in background
+how to place text on the image 
+how to implement pagination and pager in css
+write a media query to make the page responsive and it should work in all the devices and screens
+what are different orientations we have in media queries 
+give the media queries breakpoints for the different devices 
+how to change the background colors to different screens using media queries 
+what is css transitions 
+diff b/w max-width and min width
+what is margin: 0 auto and why we have to use 
+what is difference b/w currentcolor and inherit
+how to create tooltip with only css
+what is object-fit 
+create the flex-container with equal widths
+how to create mobile first application 
+what is one dimentional layout and two dimentional layout in css
+how to use fontawsome in css 
+how to use bootstrap 
+how to use tailwind 

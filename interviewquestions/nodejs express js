@@ -1,0 +1,145 @@
+what is nodejs
+how nodejs works
+what are the features of node js 
+what is the user of package.json file
+what is the purpose of package.lock json file 
+how to generate package.json file
+what is npm 
+what is npx
+what is callback funciton in nodejs
+diff b.w sync and async 
+what are streams in node js
+what are buffers in node js
+diff b/w process.nextTick() and setImmediate()
+what is middleware in express js
+what is the use of require method 
+what is nodemon and how to setup 
+diff dependecies and devdepedencies
+what is module.exports
+what are the buil in modules in node js
+diff require and imp;ort 
+what is the fs module, how to read, write, append, delete files 
+what is os module
+ what is path module 
+how to create the node js server
+how to add routing in node js 
+what is the util module in node js
+what is an even emitter 
+how does evnet driven model works in node js
+diff process and os module 
+what is global object in node js 
+diff b/w try - catch and error events in nodes 
+what is the promise in node js 
+what is async/await 
+what is express js 
+how to create the server in express js 
+how to handle the routes in expres s
+what is body-parser,, expres.json().. npm install body-parser
+what is CORS
+how to enable cors in express
+what is the REST API
+how to create the API using node js and express js
+what are CRUD operations
+what is middleware in express js
+what are the route paramenters in express 
+how do we use query parameters in express 
+how to send the response in expres 
+what is res.send() vs res.json()
+what is the dotenv package 
+what is environment variable in node js
+what is the use of process.env
+how to create the custom module in node js and express js 
+what are the different types o fmoduels in node js
+diff local and global modules in node js 
+diff readfile and readfilesync
+what is the purpose of the clustore module in nodes 
+what is load balancing in node js 
+how do we make an HTTP request in node js 
+what is the axios library 
+diff b/w fetch and axios
+how do we connect node js with the db
+what is JWT
+how to implement the JWT authentication in node js 
+what is the use by bcrypt in node js 
+how do we has the password in bcrypt
+what is the diff b.w hashing and encryption 
+what is the use of cookie-parser in express 
+what is session 
+how do we manage sessions in node js 
+what are the cookies in node js 
+what is the use of morgan in express 
+what is throtting
+what is the purpose of .gitignore in node js 
+how do we handle the file uploads in node js 
+what is the different ways to secure our nodejs application 
+diff b/w eventemitter.on and evetemiiter.once 
+what is the memory leak, how to detect and prevent in node js 
+what are some performance optimization tech in node js
+what is the woker thread
+how to create HTTPS servers in node js 
+what is http2 in node js
+what is the role of middleware chaining in express
+how does error handling middlware work in exxpress 
+what is service layer and how it is used in node js
+what is caching
+waht is socket,io
+how to handle the real time data in node js 
+what is graphQUl and hwo it used with node js 
+
+
+what is express
+diff b/w express js and node js 
+how to install express js 
+what are the key featues of express js 
+what is middleware in express 
+how to create simple server using express js
+what method is used to define a route in express
+what are in request and response objects in express
+what is the defualt port in express 
+how do we handle get request in express 
+how do we handle post request in express 
+how can we send the JSON response in express 
+how we serve static files using express 
+what is req.params in express
+what is req.query in express 
+what is req.bodyand how do we access
+what is the use of express.json 
+what is express.urlencoded() used for 
+what is res.send()
+what is the use of res.json()
+what are the different HTTP methods supported in expres js
+how do we define dynamic routes 
+how do we redirect the route in express
+how we can handle 404 errors in express 
+how do we handle the routes parameters in express 
+what is the difference b/w app.get() and app.post()
+what is the app.use() used for
+can we use multiple middleware functions for the single route
+how do chain middleware in express 
+how do we separate routes into different fiels 
+what is router in express
+how so we use express.Router()
+diff b/w app.use() and app.all()
+how do we protect routes in express 
+how do we handle file uploads in express 
+what is the purpose of nex() in express middleware
+do do we use query stirngs in express routes 
+what is diff b/w route parameters and query parameters
+what are the types of middleware in express 
+how do we write custom middleware 
+what is error handling in middleware
+what is third party middleware
+how do we implement global middleware in express 
+can middleware by async 
+how do we handle session management in express 
+what are the 4 parameters in error handling middleware
+how we can sanitize input in express 
+what is XSS and how do we prevent in express 
+what is CSRF and how do handle it 
+what is the use of express-validator 
+how do we authenticate users in express 
+how do we handle login and logout functionlity 
+what is passport.js and it work in express 
+how to implement google oauth in express 
+how to restirct routes to authenticated users only 
+

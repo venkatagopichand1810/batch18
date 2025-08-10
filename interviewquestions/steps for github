@@ -1,0 +1,17 @@
+First we need to create the repository in the github website ..
+go to terminal 
+1) git init -> it will initialize the git
+2) git status -> it will just show us what files are modified or changed
+3) git add . -> will add all the files which are modified
+4) git add filename -> it will add only that specific file
+5) git checkout . -> will discard all the changes of your local
+6) git checkout specificfile -> will discard only specific file
+7) git commit -m "message of the commit" -> it will commit our staged changes
+8) first time when we create the repo we have to use this "https://github.com/venkatagopichand1810/githublearnMaster.git"
+9) git push ....first time git push --set-upstream origin master
+10) it will give the url where we can see the changes in the github
+11) git log -> will give all the history
+12) If we wanted to check which branch we are ...git branch
+13) git branch development is used to create new branch
+14) if i wanted to move from one branch to another branch...we have git checkout branchname
+

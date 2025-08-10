@@ -1,0 +1,34 @@
+what is tailwind css and how it diff b/w bootrap
+how to install tailwind css and how to setup
+what is the purpose of @tailwind directive
+how to customize the tailwind css
+what are the responsive design calsses in tailwind
+how to apply hover,focus and active states in tailwind css
+ how to add custom colors in tailwind css
+how to conditionally apply the classes in tailwind css 
+how to apply gradeients in tailwind css
+how to center the div using the tailwind css
+how to apply padding and maring in tailwind css
+what is diff b/w absolute, relative, fixed, sticky in tailwind css, mention the classes
+how to apply flexbox in tailwind css
+how to create the responsive navigation bar using tailwind css
+how to control the overflow behaviour in tailwind css 
+how to handle conditional styling in tailwind css
+waht are the pseudo- classes in tailwind css
+how to create the animations in tailwind css
+diff max-w and min-w
+how to create the sticky footer in tailwind css
+how to add background image
+how to create the responsive tables in tailwind css
+what is backgrop-filter utilities in tailwind css
+diff sm, md, lg, xl and 2xl in tailwind css
+how to do we add external fonts using tailwind css
+diff b.w @apply, @import and @tailwind in tailwind css
+what is the purpsoe of object-fit 
+what is diff b.w min-h and max-h 
+how to add box-shadow in tailwind css
+what are the border classes 
+what are the classes for margin and padding
+how to apply active, hover, focus and visited states in tailwind css 
+how to implement grid in tailwind css 
+how to create the responsive websites using tailwind and breif the classes which we are going to use 

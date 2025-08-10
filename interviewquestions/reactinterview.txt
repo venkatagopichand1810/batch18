@@ -1,0 +1,99 @@
+what is vm architecture
+what is shadow dom in react or virtual dom
+what is react and why we have to use react, why not angular or value
+what are the main features of react
+what are the advantages of react
+what is diff virtual dom and real dom 
+what is jsx in react
+what are the different rules of jsx 
+what is the folder structure of react 
+how to setup react application 
+when i do npm start, how the react application works and how we can see the page in browser, behind the screens
+is browser going to understand jsx? 
+how browser will understand jsx 
+what are props in react and how to use them 
+what is functional component 
+what is class component 
+diff b/w functional and class component
+what is statefull compoenent and stateless components 
+what is hook 
+what is useState
+is props is mutable? 
+how to maintain the state of the application 
+diff props and state 
+what is the children prop in react or what is composition
+what is importance of key prop in react 
+how to create the functional compoenent and class component 
+what is HOC higher order compoenentsi n react 
+how to create the reusable component in react
+diff b/w controlled and uncontrolled components in react
+what is error boundary in react
+what is memo
+what is usememo 
+what is usecallback 
+what is prop drilling in react 
+what is parent to child commmunication, how to pass data from parent to child
+how to pass the data from child to parent, using function callback 
+how do we update the state in react
+what are lifecyle methods in react class components
+componentDidmount(), componentDidUpdate(), compoenentWillUnmount(), shouldComponnentUpdate()
+how does setState works in react
+
+what are the different ways to apply styles in react
+what is inline styling in react 
+how do we handle the events in react
+what is syntehticEvent
+
+what are react hooks 
+what are the rules of hooks in react
+what is useState hook in react
+what is useEffect hook in react 
+how to do api call using useEffect 
+how is diff usecases for useEffect
+what is useReducer hook in react and how it is diff with useState
+where we use useReducer, provide the syntax
+what is initialstate, dispatch, reducer funtion in useReducer
+
+how we can avoid the prop drilling in react 
+what is context APi in react
+how to implement conditional rendering in react
+how do we handle the forms in react
+how do we handle the form validation in react 
+how do we render the list in react 
+why key propis important in react lists
+what happens if key is not provided in a list 
+how to handle errors in react 
+what are erro boundaries in react
+how do we create an error boudnary in react
+what is React.memo
+diff React.memo and usememo
+what are the benefits of lazy loading in react
+what is purecomponent 
+how do we prevent re renders in react 
+how do we use React.fragment component
+
+what is react router
+what is browserrouter and hasrouter
+what are link, navlinkm and rediect in react 
+what is outlet and how to implement nested routing in react 
+how to implement dynamic routes in react router
+
+what is state management
+what is portals in react 
+what is redux 
+what are actions, reducers and stores in redux 
+what is redux-thunk used for 
+what is SSR( server side rendering in react)
+
+what is react suspense and how do use suspense with the data fetching in react 
+how to do api call and how to fetch the data in react and display in jsx 
+
+
+what is portals and rewfs in react 
+how do we create the portal in react 
+diff forwarref and useRef 
+what is render method in react 
+
+what is the purpose of index.js 
+how doeas react convers jsx into javascript
+can we modify the props in child component

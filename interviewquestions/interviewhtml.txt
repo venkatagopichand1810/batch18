@@ -1,0 +1,32 @@
+What is html
+diff html4 vs html5
+what is doctype and why we need to use it 
+what are meta tags and its importance
+what is h1 to h6, explain in terms of seo and ranking
+what is the structure of the html 
+diff b/w block and inline....inline-block
+what are semantic elements in html and its purpose 
+what are different lists in html 
+how to use icons in html 
+how to use external icons in html 
+how to create the tables in html
+diff colspan and rowspan 
+purpose of action and method attributes in html 
+what are different attributes in htmle
+how to embed images in html 
+what are media elements in html
+how to display audios, vidos, maps, pdfs, gifs in html 
+what is the purpose of alt tag in html 
+how to spellcheck in thml forms 
+what is target blank 
+what is the purpose of link tag
+is html5 is case sensitive 
+diff localstorage, sessionstorage and cookie
+what is SSE and web worker.
+how we can use autocomplete in forms 
+what is iframe
+what are formatting tags in html 
+how to embed on one html page into another page, how to link one page to another page
+how to imporve the html for seo
+diff canvas and svg
+picture tag

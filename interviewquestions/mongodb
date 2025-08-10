@@ -1,0 +1,120 @@
+what is mongodb
+mongodb is sql or nosql  why
+diff b/w rdbms vs nosql 
+what are the features of mongodb 
+what is document in mongodb 
+what is show dbs
+what is use db
+what is the collection 
+what is the database in mongodb 
+how is data stored in mongodb 
+what is BSON
+what are the advantages of using mongodb 
+
+what are the limitations of mongodb
+what is the default port of mongodb 
+how do we start and stop the mongodb server
+how does mongodb hanlde the schema 
+what is compass in mongodb
+what is sheel in mongodb
+what is mongosh
+
+how do we insert a document in mongodb 
+what is diff b/w inserOne and insertMany
+how do we upate the document in mongodb
+what is $set operator in mongodb
+how do we delete the document in mongodb 
+diff b.w difeteOne() and deleteMany()
+diff b/w find() and findOne()
+what is the query filter in mongodb
+what is the use of the limit() method
+how do we sort query results
+how do we count documents in the collection 
+how do we replace a document 
+how do we use projection to fetch specific fields
+what are diff data types in mongodb
+what is the ObjectId in mongodb
+diff b.w null, undefined, and missing fields in mongodb
+what are comparsion operators in mongodb
+what is $in and $nin 
+what is $and , $or, $not and $nor
+how do we filter the documents with the range values 
+what is $regex and how it is used 
+what is $exits operator 
+how do we query for embedded documents 
+
+what is index in mongodb 
+why do we need indexing 
+how do we crete an index in monogdb 
+what is unqiue index 
+what is hashed index
+what is explain() method
+what is aggregation in mongoDB
+what is the aggregation pipeline
+what is $match stage used for 
+what is $group stage 
+what is $sort in aggregation 
+how do we use $project 
+what is $lookup stage
+$unmind 
+$limit and $skip
+what is $count used for
+how do we calculate avg in aggregation 
+what is $merge stage
+how do you filter groupded data 
+
+what is schema-less in mongodb
+what are pros and cons of embedded documents 
+how do you perform joins in mongodb 
+what is data modeling 
+how do we handle relationsships in mongodb
+what are some real-world uses cases in mongodb
+what are the diff b/w mongodb and mysql 
+what is the mongodb atlas 
+what is sharding in mongodb
+what is replication in mongodb 
+what is replica set 
+what is mongodb differ from traditional RDBMS
+expalin the mongodb aggregation pipeline 
+what is expalin()
+what is sharding in mongodb 
+what is mongodb atlas 
+
+
+
+
+what is mongoose 
+how is mongoose diff from mongodb 
+what is the purpose of using mongoose in node js
+what is ODM 
+what to install mongoose
+how to connect mongoose to mongodb database
+what is the connect() method used for
+what happenf if the mongodb connection fails 
+what are mongoose shcema 
+what is mongoose model 
+diff b.w sceham and model 
+how to define simple schma in mongoose 
+what is use of mongoose.model()
+
+how do we define differrent field types in the schema 
+what are the available data types in mongoose 
+how do we set min and max values for the number 
+how to create enum in mongoose 
+what is _id field in mongoose 
+how to cretae timestamp in mongoose 
+what is model.create
+what is find(), findOne(), findById()
+updateone and updateMany
+findbyIDandUpdate
+deleteOne and deleteMany
+findOneANdDelete()
+findByIdAndRemove
+how do we save the document using save method in mongoose 
+what is the query in mongoose 
+how do we fitler queries with conditions 
+what is where() in mongoose 
+what $gt, $lt, $or, $and, limit, skip in mongoose
+what is pre(save)
+
+

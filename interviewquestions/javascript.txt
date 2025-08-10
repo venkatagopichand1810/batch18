@@ -1,0 +1,117 @@
+different ways to include script or add javascript HTML
+what the are different data types in javascript
+diff b/w primitive and non primitive data types
+waht are reference data types in javascript
+what is event bubbling, event propagation, and preventDefault in javascript
+diff map and set, weakMap
+what is the diff let, const and var
+what are the javascript primitive data types 
+what is typeof operator in javascript
+what is instanceof operator
+diff b/w null and undefined
+what is diff == and ===
+what is javascript function and how do we define the function in javascript
+what is arrow function
+waht is anonymous function 
+IIFE function 
+diff function declaration and function expression 
+what is "this" key word 
+diff b.w function scope, block scope, global scope, lexical scope in js 
+what is hoisting 
+what is use strict 
+diff local storage and session storage, how to set the value and get the value
+what is closure in javascript
+how to create the classwes in js
+what is prototype
+what is inheritance
+what are template literals in javascript
+what the default parameters in functions 
+what are rest and spread operators in javascript 
+give real example for rest and spread operators
+what ie IIFE function (immediately invoked function expression)
+what is setTimeOut function and setIntervel, diff b/w them 
+what is callback function 
+what is callback hell 
+what is promise and syntax
+different states in promises 
+what is promise chaining
+what async and await 
+diff promise and async/await
+how to do an api call in js and what is usage of fetch method
+diff for....in and for...of loops 
+what is the filter method used for
+some, every, sort, reduce, index, indexOf, filter array methods......
+what is purpose of push and pop 
+what is reducemethod and where we can use in real time 
+diff b/w slice and splice 
+what is object in javascript and how to create the object in javascript
+what is JSON 
+what is JSON.parse and JSON.stringify
+how we can access object properties in javascript 
+how to access individual elements in array 
+how to convert string to number in javascript
+diff call, bind and apply
+what is event delegation, event progagation in javascript
+how to handle errros in javascript promises 
+what is purpsoe of promise.all and promise.race
+what is diff synchronous and asyncronous 
+how does fetch method works 
+what are setters and getters in javascript
+how to clone an object in javascript
+how to remove specific element from an array in javascript
+what are different types of scopes in javascript 
+what is lexcial scoping in javascript
+what is diff deep copy and shallow copy
+what is javascript prototype
+how to implement inheritance in javascript
+what is diff constuctor function and class in javascript
+what is object.create
+what is object.assign
+how to handle erros in javascript
+diff try, catch ,throw and finally
+how to throw user defined errors in js 
+what is event loop in javascript..stack, callback quest, web api's
+how do we debounce a function in javascript
+hoe do we throttle a function in javascript
+diff stopPropagation and preventDefault in javascript
+what is addEventListener in javascript
+what is weakMap and how it is diff from the map
+how to do any api call in javascript
+diff b/a append, prepend and appendChild
+what is DOM, document.getElementById, byclassName, tagName,
+how to add the classes and how to remove the classes using DOM, what is toggle method used for
+what is BOM 
+what is diff b/w queryselector and queryselectorAll
+what is array destructruing and how it works 
+what is object destructruing and how it works 
+what is optional chaining in javascript 
+what is nullish coalescing operator in javascript and how it workds 
+what is super key word 
+what is JSON.stringify() and when whe have to use 
+what is JSON.parse() and how it works
+how to does sort method works in javascript and is compare function in sorting
+what is ternary operator 
+diff do while and while loop 
+what is modules in javascript, import and export 
+what is Es6 
+where we have to use template literals
+diff b/w document.getElementById and className 
+how to create classes in javascript
+what is diff b/w typeof and instaceOf operator in javascript
+what is regex 
+give some list of array methods, string methods, object methods, math methods, date methods
+how to do debugging in javascript 
+what are web api's javascript 
+what is cookie 
+how random method works in javascript
+what are diff operators in javascript 
+
+
+how to reverse the number without any predefind function
+how to get the third or second largest number from the given array
+how to revers the numbers
+find the sum of the products using reduce method
+how to remove the duplicate values in javascript write the program without any predefined methods
+how to count the char in the given string
+how to find the repeated words in the given array 
+find the values which > 10 and print the values
