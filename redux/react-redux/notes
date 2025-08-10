@@ -1,0 +1,7 @@
+Redux is the state management library which use to manage and share the state 
+across muliple components.
+
+store -> global centralized store
+actions -> 
+Reducers....how the state changes
+

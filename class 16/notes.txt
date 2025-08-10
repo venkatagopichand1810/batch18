@@ -1,0 +1,56 @@
+Javascript events used to make the web pages interactive
+
+mouse events: Mouse events are triggerd by mouse actions
+
+click -> this will trigger when the element is clicked
+dbclick -> when the double-clicked
+mousedown
+mouseup
+mounenter
+mouseleave
+mousemove
+mouseover
+mouseout
+
+
+
+
+
+keyboard events
+
+keydown _. triggerd when the key is first pressed down
+keyup -> triggeed when the key is released
+
+
+
+Form events
+submit 
+reset
+focus
+blur
+input
+change -> when the value of the input field changes and losses focus
+invalid
+select
+
+
+
+
+clipboard events
+
+Drag and drop events
+
+focus events
+
+touch events
+
+UI events
+
+media events
+
+animation events
+
+transition events
+
+pointer events
+

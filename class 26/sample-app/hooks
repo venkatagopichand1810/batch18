@@ -1,0 +1,55 @@
+
+React hooks in the functional components is the special function 16.8
+
+
+before 16.8 version
+
+1) class components -> stateful components
+
+2) functional components -> stateless components
+
+
+props -> parent to child( immutable)
+
+shopping -> 1 + 1 -> in fun components before 16.8 props(immutable)
+
+
+class components -> state..setState..life cycle hooks. componntDidmount, componentwillmount, tough
+
+
+16.8 version....hooks in functional..
+useState -> to maintain the state of the application..simple code.
+in modren react dev...everyone MNC...functional components..
+
+
+
+
+hooks in react...
+api call get...hook
+
+1) to maintain we use useState (hook)
+
+2) 10 -> components -> will be loaded...usecallback, usememo, memo(hooks)
+
+3) api call..useEffect
+
+4) useContex Api (single source) -> 100
+
+5) complex state of the application..useReducer hook (redux)
+
+
+
+prop drilling.. app -> mens -> kids -> accesseso-> checkout 100 -> props ->
+
+
+in the functional components
+
+
+hooks are the special functions which are avaliable for the function components
+
+1) useState...
+
+
+//functional compoentns and class compoentns
+
+function App()

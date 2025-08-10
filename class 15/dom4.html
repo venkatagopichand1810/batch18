@@ -1,0 +1,32 @@
+<!-- <div id = "divContainer"></div>
+
+
+<script>
+
+    // query the element
+    const div = document.getElementById("divContainer")
+    // create the new element h1
+    const newElement = document.createElement("h1");
+    // set the content of the element
+    newElement.innerText = "hello new world";
+    div.appendChild(newElement);
+
+
+</script> -->
+
+<!-- setAttribute -> set or modify the attribute -->
+
+<img id = "image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s">
+
+<script>
+    const image = document.getElementById("image");
+
+    // change the src attribute of the image
+    image.setAttribute('src', "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s")
+
+    // custom attribute
+    image.setAttribute("data-info", "venkat")
+
+
+
+</script>

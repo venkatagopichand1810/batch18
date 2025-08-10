@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+        <ul id = "list">
+            <li id = "item">Item 1</li>
+        </ul>
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="removeItem()">Remove Item</button>
+        
+        <script>
+            function addItem() {
+                // query the element
+                const list = document.getElementById("list"); //ul
+                const newItem = document.createElement('li'); //li
+                newItem.innerText = "New Item"; //create the inner 
+                list.appendChild(newItem);
+
+            }
+            
+            function removeItem() {
+                // query the element
+                const list = document.getElementById("list"); //ul
+                const newItem = document.getElementById('item'); //li
+                list.removeChild(newItem);
+
+            }
+
+        </script>
+
+    </body>
+</html>

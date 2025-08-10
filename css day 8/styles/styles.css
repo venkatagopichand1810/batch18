@@ -1,0 +1,57 @@
+/* p {
+    color: green;
+}
+
+h1 {
+    background-color: orange; 
+}
+
+div {
+    color: white; 
+    background-color: black; 
+    font-size: 52px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+}
+
+header {
+    background-color: brown;
+}
+ 
+
+
+p.venkat1 {
+    color: olive;
+    font-size: 55px;
+}
+
+h1.venkat2 {
+    background-color: orange; 
+    color: chartreuse;
+}
+
+div.venkat3 {
+    color: white; 
+    background-color: rgb(216, 52, 52); 
+    font-size: 52px;
+}
+
+footer.venkat4 {
+    background-color: green;
+    color: white;
+}
+ */
+
+
+ p {
+    background-color: black;
+    color: orange;
+ }
+
+ .index2 {
+    background-color: darkblue;
+    color: rgb(221, 3, 134);
+ }

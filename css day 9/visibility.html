@@ -1,0 +1,22 @@
+<button onmouseover="showTooltip()" onmouseout="hideTooltip()">GreenVision Xceed Gen2</button>
+<span id = "tooltip">Add to wishlist</span>
+
+
+<style>
+    #tooltip {
+        /* visibility: hidden; */
+        background-color: aqua;
+        padding: 5px;
+        border: 2px solid orange;
+    }
+</style>
+
+<script>
+    function showTooltip() {
+        document.getElementById("tooltip").style.visibility = "visible";
+    }
+
+    function hideTooltip() {
+        document.getElementById("tooltip").style.visibility = "hidden";
+    }
+</script>

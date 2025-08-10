@@ -1,0 +1,27 @@
+
+in react we wont see any html file
+
+we are going to write both html and javascript in same file
+
+JSX(javascript xml) is the extension for javascript used in react.
+
+//HTML + JS = jsx
+<!-- 
+//<script src = ""></script>
+
+//<link rel = "" -->
+
+
+//inside the return statement we are going to use html code
+//before return statement we are going to use javascript
+
+
+
+//rules we need to remember when we use jsx
+
+1) when we write more than one line of html code, we must and should have one parent element
+
+2) in jsx while create the component the component name should be capital letter
+
+
+react is the SPA,, only one PAGE WILL BE LOADED

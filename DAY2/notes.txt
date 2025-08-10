@@ -1,0 +1,39 @@
+Data type in javascript 
+
+1) Primitive Data types -> directly stores the data in the memory
+
+ a) String...
+  used for the text...
+  we are going to enclosed the text using single quote or double quote
+
+  b) number
+  Represetns the both integer and floating point numbers
+
+  c) Boolean..true or false
+
+  d) undefined...a variable that has been declared but not assgined a value
+
+   e) null...absence of the value
+
+
+
+
+
+
+
+
+
+
+2) Non primitive data types
+
+1)object: used to store the collections of data in the key - value pairs
+
+2) array -> object..used to store the list of items
+
+3) function -> object...a block of code to perform spcific task
+
+4) date .. new Date
+
+5) regex
+
+

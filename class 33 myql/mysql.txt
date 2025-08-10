@@ -1,0 +1,35 @@
+
+MYSQl is the open source relational database management system(RDBMS).
+
+SQL -> Structured Query Language(SQL)
+
+key points for MySQL:
+
+-> Developed by Oracle corporation
+-> data will be stored in tables (rows and columns)
+-> uses the SQL to interact with the data
+-> large volumes of data
+
+--------------------------------------------------
+
+intro to mysql engines
+
+Storage Engine: A storage engine is the part of the MYSQL which handles how the data is stored, retriev and update
+
+
+Engine Name:
+1) InnoDB...default engine
+
+2) MyIsam -> faster transaction
+
+3) MEMORY -> If we wanted to store data in RAM
+
+4) CSV -> CSV files
+
+5) ARCHIVE -> if wanted to store large number of data historical DATA
+
+
+
+
+
+

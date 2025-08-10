@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 20px
+}
+
+
+form button {
+    background-color: rgb(238, 173, 52);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(128, 85, 6);
+}
+
+/* table styles */
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* styles for the table cells */
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid orange;
+}
+
+/* actions button */
+
+.actions button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: rgb(34, 95, 16);
+    color: white;
+}
+
+.delete {
+    background-color: rgb(237, 86, 86);
+    color: white;
+}

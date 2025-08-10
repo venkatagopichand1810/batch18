@@ -1,0 +1,52 @@
+
+1) 
+
+fuction Child(props){
+
+    
+    return (
+        <>
+            <p>Name is : {props.name}  <br></br>
+            City is: <strong>{props.city}</strong>
+            </p>  
+            <br></br>
+           
+        </>
+    )
+}
+
+2) 
+
+fuction Child(props){
+    <!-- destructuring props -->
+     const {name, city} = props
+
+    
+    return (
+        <>
+            <p>Name is : {name}  <br></br>
+            City is: <strong>{city}</strong>
+            </p>  
+            <br></br>
+           
+        </>
+    )
+}
+
+
+3) 
+    <!-- destructuring props -->
+fuction Child({name, city}){
+    return (
+        <>
+            <p>Name is : {name}  <br></br>
+            City is: <strong>{city}</strong>
+            </p>  
+            <br></br>
+           
+        </>
+    )
+}
+
+
+

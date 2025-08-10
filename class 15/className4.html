@@ -1,0 +1,21 @@
+<!-- form validation -->
+
+<form onsubmit="return validateForm()">
+    <input type = "text" placeholder="Enter your Name" class="input">
+    <input type = "email" placeholder="Enter your Email" class="input">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    function validateForm(){
+        const inputs = document.getElementsByClassName("input");
+        for(let i =0; i<inputs.length; i++){
+            if(inputs[i].value === ''){
+                alert("All fields are required")
+                return false;
+            }
+        }
+        alert("FORM SUBMITTED SUCCESSFULLY")
+        return true;
+    }
+</script>

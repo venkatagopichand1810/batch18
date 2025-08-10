@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- whenever we are creating the RWD we to add this meta -->
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title> Flexbox example </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: orange;
+                color: black;
+                padding: 15px 30px;
+                font-size: 20px;
+            }
+
+            .logo {
+                font-size: 24px;
+                font-weight: bolder;
+            }
+
+            .nav-links {
+                list-style: none;
+                display: flex;
+            }
+
+            .nav-links li {
+                margin-left: 40px;
+            }
+
+            .nav-links a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+            }
+
+            .nav-links a:hover {
+                text-decoration: underline;
+                background-color: rgb(244, 229, 22);
+                padding: 10px;
+                color: black;
+            }
+
+            .guvi-header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(126, 216, 226);
+                height: 300px;
+            }
+
+            .guvi-stack {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 50px;
+                background-color: lightgray;
+            }
+
+            .tech-stack {
+                text-align: center;
+                max-width: 300px;
+            }
+
+            .tech-stack h3 {
+                margin-top: 20px;
+                color: rgb(236, 63, 6);
+            }
+            .tech-stack p {
+                margin-top: 10px;
+                font-weight: bold;
+            }
+
+            .footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: orange;
+                padding: 20px;
+
+            }
+
+            .services {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 50px 20px;
+                background-color: rgb(230, 173, 173);
+                text-align: center;
+            }
+
+            .services-stack {
+                background-color: white;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 20px;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- navigation bar -->
+         <nav class="navbar">
+            <div class="logo">Guvi Website</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+
+         <!-- header section -->
+          <header class="guvi-header">
+            <h1>Welcome to Guvi Learning Portal</h1>
+            <p>You go to platform for the amazing content</p>
+          </header>
+
+          <!-- feature section -->
+           <section class="guvi-stack">
+                <div class="tech-stack">
+                    <h3>MERN Stack</h3>
+                    <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+                </div>
+
+                <div class="tech-stack">
+                    <h3>MEAN Stack</h3>
+                    <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+                </div>
+
+                <div class="tech-stack">
+                    <h3>Java Full Stack</h3>
+                    <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+                </div>
+           </section>
+
+
+           
+          <!-- feature section2 -->
+          <section class="services">
+            <div class="services-stack">
+                <h3>Web Developement</h3>
+                <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+            </div>
+
+            <div class="services-stack">
+                <h3>UX Developement</h3>
+                <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+            </div>
+
+            <div class="services-stack">
+                <h3>Java Developement</h3>
+                <p> We are going to learn to build the scalable applications using the latest Tech stack</p>
+            </div>
+       </section>
+
+           <!-- footer -->
+
+           <footer class="footer">
+            <p>&copy; 2025 Guvi, All Rights reserved</p>
+           </footer>
+        
+
+    </body>
+</html>

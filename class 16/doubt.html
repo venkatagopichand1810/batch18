@@ -1,0 +1,19 @@
+<input type = "text" id = "username" placeholder="Enter your username" />
+<p id = "message"></p>
+
+<script>
+    const usernameInput = document.getElementById("username");
+    const message = document.getElementById("message")
+
+    // functon to run when the user types
+
+    function handleInput(event){
+        setTimeout(() => {
+            const value = event.target.value;
+            message.textContent = `you have entered: ${value}`;
+        }, 5000)
+
+    }
+    usernameInput.addEventListener("input", handleInput)
+
+</script>

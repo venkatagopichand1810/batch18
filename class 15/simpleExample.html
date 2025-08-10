@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple exmaple</title>
+    </head>
+    <body>
+        <div>
+            <h1>Todo TASK</h1>
+            
+            <div>
+                <input type="text" id = "todo-input" placeholder="Add the new task">
+                <button id = 'add-btn'>Add</button>
+            </div>
+
+            <!-- list of totods -->
+             <ul id = "todo-list"></ul>
+        </div>
+
+        <script>
+            
+            const todoInput = document.getElementById("todo-input");
+            const addBtn = document.getElementById("add-btn");
+            const todoList = document.getElementById("todo-list");
+
+
+            // function to add the new todo
+
+            const addTodo = () => {
+                // get input value 
+                const todoText = todoInput.value;
+
+                if(todoText !== ''){
+                    // creat li
+
+                    const listItem = document.createElement("li");
+                    listItem.textContent = todoText;
+
+                    // create the delete button 
+                    const deletBtn = document.createElement("button");
+                    deletBtn.textContent = "Delete";
+
+                    deletBtn.addEventListener("click", () => {
+                        listItem.remove()
+                    });
+
+                    // add delete button to the list
+                    listItem.appendChild(deletBtn);
+
+                    // add the listitem to the todo list
+                    todoList.appendChild(listItem);
+
+                    todoInput.value = ''
+                }
+            };
+
+            // add the button click event
+            addBtn.addEventListener("click", addTodo)
+
+
+
+        </script>
+    </body>
+</html>
+
+
+  

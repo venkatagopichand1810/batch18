@@ -1,0 +1,54 @@
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: orange;
+  padding: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1; 
+  /* it will allow the element to grow and fill till the avaliable space*/
+}
+
+.sidebar {
+  width: 200px;
+  background-color: rgb(197, 197, 237);
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar li a {
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.sidebar li a:hover {
+  color: rgb(233, 3, 3);
+}
+
+.page-content {
+  padding: 20px;
+
+}
+
+.footer {
+  background-color: rgb(132, 132, 132);
+  color: white;
+  padding: 3px;
+  text-align: center;
+}

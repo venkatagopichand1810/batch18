@@ -1,0 +1,28 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding : 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: skyblue;
+    color: white;
+}

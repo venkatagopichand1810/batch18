@@ -1,0 +1,20 @@
+// GET -> Retrieve the data from the server, fetching react docs,, used in the browser address bars or links etc 200 status
+
+// POST -> Send the data to the server to create the new resource. ex..submitting the new user form
+   //we are going to send the data in the body of the request
+
+
+//put -> update or replace the existing resource
+//ex,,complete user profile.. name, email and address...
+
+
+//patch method: partially update an existing resource 
+//ex.. Amzon -> name, email and address -> change your city from bangalore to hyd...only i need to update address
+
+
+// delete method....Delete the resource from the server...//delete my amazon account
+
+
+axios is the javascript library(npm install axios) used to make HTTP request from the browser.
+//it will automaically tranfroms the JSON data
+ideal for the asynchronous operations 

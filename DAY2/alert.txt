@@ -1,0 +1,14 @@
+alert...displays the pop up dialog box with the message....if pasues the scirpt execution unitll the user closes the alert box
+
+
+prompt....it will displays the pop up dialog box with the message and an input field...
+//it will returns the value entereed by the user
+//if the user cancels, it will returns the null
+
+
+//confirm...displays the pop up dialog box with the message with ok and cancel buttons...
+
+..it returns true if the users click OK and false if the user clicks cancel
+
+
+

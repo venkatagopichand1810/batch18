@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #FEFCFB;
+    width: 100%;
+    height: auto;
+}
+
+.main-container {
+    padding: 0 0 40px 0;
+}
+
+/* navbar */
+
+.container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: "Volkhov", serif;
+}
+
+.logo img {
+    padding-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222222
+}
+
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: gray
+}
+
+.login a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #FD8D3A;
+}
+
+.login a:hover {
+    background-color: #FA7436;
+    color: #FFFFFF;
+    padding: 10px 28px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(255, 98, 5, 0.6)
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        font-size: 10px;
+    }
+    
+    .logo img {
+        width: 15px;
+    }
+
+    nav ul li {
+        padding-right: 10px;
+    }
+
+    .login a {
+        padding-right: 10px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 769px){
+
+    .container {
+        font-size: 13px;
+    }
+    
+    nav ul li {
+        padding-right: 15px;
+    }
+
+    .login a {
+        padding-right: 15px;
+    }
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.hero .hero-text {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.hero .hero-text h1 {
+    font-family: "Volkhov", serif;
+}
+
+.hero .hero-text h1 span {
+    color: #FA7436;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: gray;
+    margin: 20px 0;
+    padding: 20px 0;
+    word-spacing: 5px;
+}
+
+.hero-text a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    color: #FA7436;
+    border: 2px solid #FA7436;
+    border-radius: 10px;
+}
+
+.hero-text a:hover {
+    background-color: #FA7436;
+    color: white;
+}
+
+.hero-explore {
+    margin-top: 80px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-explore .explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-explore .explore h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+.hero-explore .explore h4 i {
+    font-size: 12px;
+    color: #FA7436;
+}
+
+
+.hero-explore .explore h4 p {
+    font-size: 10px;
+    color: gray;
+    padding-top: 6px
+}
+
+.hero-explore .explore a {
+
+    background-color: #FA7436;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 rgba(255, 98, 5, 0.6) 
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #FA7436;
+    position: relative;
+}
+
+footer .subscribe {
+    position: absolute;
+    top: -40%;
+    left: 10%;
+    background-color: #FA7436;
+    width: 1200px;
+    padding: 90px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+
+footer .subscribe h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 0 120px;
+    color: white;
+    font-family: "Volkhov", serif;
+}
+
+input[type = "email"] {
+    display: inline-block;
+    width: 70%;
+    height: 20px;
+    padding: 34px 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.email-img {
+    position: absolute;
+    top: 67%;
+    z-index: 999;
+    left: 17%;
+}
+
+.btn {
+    background-color: #FA7436;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    position: relative;
+    left: -123px;
+    padding: 15px 20px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+.main {
+    background-color: #F7F8FC;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 60px;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+}
+
+.contents h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 100px;
+    font-family: "Volkhov", serif;
+}
+
+.contents div h1 span {
+    color: #FA7436;
+}
+
+.contents div p {
+    color: #666666;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 10px;
+    position: relative;
+    left: 30%;
+    width: 260px;
+}
+
+.contents div img {
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container1 {
+    width: 180px;
+    background-color: #FFFFFF;
+    text-align: start;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.container1 img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.container1 h4 {
+    font-weight: 600;
+}
+.container1 p {
+    font-size: 9px;
+    text-align: start;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer .subscribe .img1 {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    width: 100px;
+    height: 110px;
+
+}
+
+footer .subscribe .img2 {
+    position: absolute;
+    width: 400px;
+    top: 15%;
+    left: 0;
+    z-index: -1;
+    height: 320px;
+}
+
+.footer {
+ position: relative;
+ top: 360px
+}
+
+
+.main1 {
+    width: 100%;
+    height: auto;
+    background-color: #FEFCFB;
+    text-align: center;
+    padding: 50px;
+}
+
+.card-content h1{
+    font-size: 30px;
+    font-family: "Volkhov", serif;
+}
+
+.card-content h1 span {
+    color: #FA7436;
+}
+
+.card-content p {
+    width: 300px;
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    left: 40%
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+.cards a {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    background-color: #FA7436;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.location span {
+    font-size: 12px;
+    padding: 2px 5px;
+}

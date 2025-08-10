@@ -1,0 +1,101 @@
+
+what is javascipt
+differet ways to include the scirpt or add javascript in html
+what is let var const 
+and diff let var and const
+what are the data types in javascript
+what are primitive data types
+what are non primitive data types
+diff b/w primitive and non primitive data types in javascript
+what is the typeof operator in javascipt
+what is the instanceof operator in javascirpt
+diff b.w map and set
+what is weakmap 
+diff b/w null and undefined
+what is diff == and ===
+what is javascript function, how do we define the function in javascript
+different type of funtions in javascript
+funtion declaration, function expression, arrow function, recursive function, higher order function
+diff b.w arrow function and normal function 
+what is this in javascript 
+what is hoisting 
+what is the closure and explian with an example 
+what is template literals 
+diff cookie, local storage and session storage in javascript
+diff call, apply and bind 
+even bubbling 
+event propagation 
+event delegation
+preventDefault 
+what are the default parameters in functions
+what are rest and spread operator in JS and explain 
+IIFE
+settimout and setInterval 
+callback funciton and what is callback
+different states in promises 
+what is promise 
+what is async await
+what is fetch
+how to do do an api call in javascript using fetch
+promie chaining
+diff b.w for of and for in 
+what is the filter method user for
+what is dff push pop shift and unshift
+what is the reduce method and write a program to find the sum of the numbers
+diff b/w slice and splice 
+what is object in javascript and differet ways to create objects in javascript 
+what is prototype
+what is javascript inhertitance 
+how to access prop objet properties in js
+how to access the individual elements in array 
+how to convert string to number in javascript 
+how to handle errors in javascript 
+try catch finally 
+what is the purpose of throw keyword in javascript 
+how to send the custom error message in js
+what are diff scopes in ijavascdript 
+how to clone the object in js
+wat are setters and getters in js
+diff synchronous and asychronous
+how to create class in javascript
+what is constructor
+what is object.create
+what is object.assgin
+what is event loop in javascript
+how do we debounce a functiuon in javascript 
+how do we throttle a function in javascript 
+diff stoppropagation and prevetDefault 
+what is the addEventListener in javascript 
+what is dom 
+what is bom 
+diff b/w queryselector and queryselctorall
+diff b.w document.getelmentbyid, byclass, tagname
+what is array destructuring and how it works
+what is object destruturing and how it works
+what is optional chaining in jt=s
+what is nullish coalescing operator in js
+what is ternary operator
+diff do while and while loop
+what is modules in javascript 
+what are es6 features 
+array methods, sort, some, every, ......
+string methods
+math methods
+how to debug js
+diff operators in js
+what is super key word
+what is JSON
+what is JSON.PARSE
+WHAT IS JSON.STRINGIFY METHOD
+append and appenchild 
+
+how to reverse the number in js without using any predefined methods
+diplay third largest number or 2nd largest nubmer or smallest nubmer
+how to reverse the number or string
+find the sum of the products using reduce method 
+remove the duplicates values in the given array 
+how to count the charcters in the given string.
+find the reapted words in the given array and count it
+find the values which is >10 and print the values
+write a program for the closure
+write a program to do the api call 

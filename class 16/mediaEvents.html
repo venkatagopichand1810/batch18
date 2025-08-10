@@ -1,0 +1,94 @@
+<body>
+    <video id="myVideo" width="600" controls>
+        <source src = "./SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+    </video>
+    <p>Volumne Level: <span id = "volumeLevel">1.0</span></p>
+
+    <script>
+        const video = document.getElementById("myVideo");
+        const volumeLevel = document.getElementById("volumeLevel");
+
+        // event when the video starts playing
+        video.addEventListener('volumechange', () => {
+            volumeLevel.textContent = video.volume.toFixed(2)
+        })
+
+       
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- play, pause,  -->
+
+
+<!-- <body>
+    <video id="myVideo" width="600" controls>
+        <source src = "./SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        const video = document.getElementById("myVideo");
+
+        // event when the video starts playing
+        video.addEventListener('play', () => {
+            alert("video is playing")
+        })
+
+        // event when the video pause playing
+        video.addEventListener('pause', () => {
+            alert("video is paused")
+        })
+
+          // event when the video pause playing
+          video.addEventListener('ended', () => {
+            alert("video is ended")
+        })
+    </script>
+</body> -->
+
+
+
+<!-- <body>
+    <video id="myVideo" width="600" controls>
+        <source src = "./SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+    </video>
+    <p>Current time: <span id = "currentTime">0</span>seconds</p>
+
+    <script>
+        const video = document.getElementById("myVideo");
+        const currentDiplayTime = document.getElementById("currentTime");
+
+        // event when the video starts playing
+        video.addEventListener('timeupdate', () => {
+            currentDiplayTime.textContent = video.currentTime.toFixed(2)
+        })
+
+       
+    </script>
+</body> -->
+
+

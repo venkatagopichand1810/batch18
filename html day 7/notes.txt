@@ -1,0 +1,28 @@
+in far in html
+
+doctype what is html 
+title head body h1 to h6 
+pre 
+p
+br 
+hr
+b
+strong 
+i 
+em 
+sub 
+sup
+mark 
+del 
+ins
+s
+lists -> ordered list, unordered list, description list
+link icon 
+meta tags
+
+deployment -> github
+
+
+
+
+inline and block

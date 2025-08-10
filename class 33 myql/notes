@@ -1,0 +1,24 @@
+What is database...
+
+A database is the collection of data that can be easily accessed, managed and update, retrival
+
+why we use database>>>>
+1) To store large amounts of data
+2) to retrieve data quickly and accurately
+3) To update and delete the data as needed
+4) to ensure data security etc
+
+
+Types of Databases:
+1) Relational Databases(RDBMS)..Relational Database management System
+   -> Data is stored in tables (rows and columns)
+    -> MYSQL, PostgreSQL, Oracle
+
+2) NoSql Databases- used for unstructured data...document (jSON)
+
+{
+    name: "venkat",
+    address: "123 T Nager"
+}
+  
+   

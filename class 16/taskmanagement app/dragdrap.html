@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Task Management </title>
+    <link rel="stylesheet" href="./dragstyle.css" />
+</head>
+
+<body>
+    <h2>Task Management Board</h2>
+
+    <!-- task lists -->
+     <div class = "board">
+        <!-- todo section  -->
+        <div class="column">
+            <h3>To-Do</h3>
+            <div id = "todo" class="task-list">
+                <div class="task" draggable="true" id = "task1">Task 1</div>
+                <div class="task" draggable="true" id = "task2">Task 2</div>
+                <div class="task" draggable="true" id = "task3">Task 3</div>
+            </div>
+        </div>
+
+        <!-- progress section -->
+         <div class="column">
+            <h3>In progress</h3>
+            <div id = "in-progress" class="task-list">
+            </div>
+         </div>
+
+         
+        <!-- complete section -->
+        <div class="column">
+            <h3>Completed</h3>
+            <div id = "completed" class="task-list">
+
+            </div>
+         </div>
+     </div>
+
+     <script src = "dragscript.js"></script>
+</body>
+
+</html>

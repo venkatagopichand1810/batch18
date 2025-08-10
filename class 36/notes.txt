@@ -1,0 +1,9 @@
+Node js is the javascript runtime environment which allows to run our javascript 
+code outside of the browser
+
+because of v8 engine..
+chat app
+rest api
+enterpraise applications 
+
+node is non-blocking and event driven, asychronous progamming 

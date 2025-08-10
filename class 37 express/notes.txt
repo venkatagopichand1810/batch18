@@ -1,0 +1,9 @@
+middlware is a function that sits b/w request and response
+
+//we can modify request
+we can modify response 
+we can call next middleware function 
+
+app.use...used to apply middleware
+middleware function run for every request, unless if we give any specific path
+it is always run on all the methods

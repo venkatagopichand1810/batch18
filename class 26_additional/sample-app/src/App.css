@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  font-size: 55px;
+  color: orange;
+  background-color: black;
+  padding: 50px;
+
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.product-card {
+  background-color: goldenrod;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

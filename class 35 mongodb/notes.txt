@@ -1,0 +1,67 @@
+
+MongoDb is the NOSQL database, non relational database.. data will stored in JSON like documents
+
+Mongodb features..
+
+schema-less -> we don't need to define the tables and columns.
+Faster
+Developer friendly..JSON
+
+RDBMS OR MYSQL is the sql database, data will will be rows and columns in the tables, 
+relational database
+
+
+what is document in MongoDb?
+-------------------------------------
+
+document is the unit of data in MongoDb, it is similar to row in relational database
+data will be stored in BSON (Binay json), it is same as JSON but additonally it will supports more
+data types then JSON
+
+ex.
+
+ {
+    "name": "venkat",
+    "email": "venkat@gmail.com",
+    "age" : 30,
+    "skills" : ["javascript", "node.js", "HTML"]
+ }
+
+
+what is collection in MongoDb?
+A collection is a group of MongoDb documents, like table in relational database
+
+[
+ {
+    "name": "venkat",
+    "email": "venkat@gmail.com",
+    "age" : 30,
+    "skills" : ["javascript", "node.js", "HTML"]
+ },
+
+ {
+    "name": "harsha",
+    "email": "harsha@gmail.com",
+    "age" : 30,
+    "skills" : ["javascript", "node.js", "HTML"]
+ },
+
+  {
+    "name": "rama",
+    "email": "rama@gmail.com",
+    "age" : 30,
+    "skills" : ["javascript", "node.js", "HTML"]
+ }
+
+]
+
+
+Mongodb vs    MYSQL
+NOSQL Db      Rleational Db
+JSON(bson)    tables row and columns
+Schema less   strict schema
+document      row
+collection    table 
+Better for    best for structured data
+large app 
+$looktup       inner joins,joins

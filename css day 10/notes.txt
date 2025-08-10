@@ -1,0 +1,4 @@
+RWD flexbox is the CSS layout model that allows to design flexible and responsive layouts....
+
+1) flex container.....for the parent element we need to apply diplay: flex
+2) flex items ....children

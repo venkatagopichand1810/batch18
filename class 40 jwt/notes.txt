@@ -1,0 +1,3 @@
+library used for hashing the passwords securly in node js
+
+for hashing purpose, passwords encrypt

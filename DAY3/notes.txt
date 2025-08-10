@@ -1,0 +1,24 @@
+for loops.... if we wanted to repeat a block of code for the specific number of times...
+
+for(init; condition; increment/decrement){ 
+    the block of code  
+}
+
+//init....it will init the loop
+//condition: before the increme 
+//increment/decrement.. after the condition
+
+
+while and do while are the loops are used to repeatedly execute a block of code as long as spcified condition is true
+
+
+while loop: The condition is going to check before the code block is executed...
+
+do ..while loop.. the code block is executed at least once before the condition is checked...
+
+
+while(condition){
+    //code to execute
+}
+the loop runs as long as the condition evalutes to true...
+//if the condition is false intially the loop won't run at all

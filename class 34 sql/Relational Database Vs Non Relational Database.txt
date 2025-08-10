@@ -1,0 +1,90 @@
+Relational Database Vs Non Relational Database
+Pros & Cons Of relational Database
+
+
+RDBMS -> Relational Database management system
+->SQL
+
+pros RDBMS
+
+-> DATA INTERGRITY -> strong enforcmemt of the data types
+-> SQL -> query, filtering .....powerful
+-> for enterprise we are going SQL
+-> ACID -> Atomcity consistnecy isoation durability -> trasasctions
+
+-> FS -> finanancial system, banking system -> SQL
+
+
+cons -> very big data 
+peformance for the bigger data will be a challange 
+not ideal for the nested data
+
+name: "venkat"
+address: {
+    coutry: {
+        name: "india"
+        state: {
+            city: {
+                distrct:
+
+            }
+        }
+    }
+}
+
+-> 10000 -> nosql 
+100000 -> clound - postgre sql
+
+
+Relational Database Vs Non Relational Database
+
+mongodb -> database 
+
+
+Relational Database Vs Non Relational Database
+
+
+Relational Database:
+Data will be stored in rows and columns in the tables
+fixed schema
+SQL 
+banking, inventory systems
+ACID
+large data -> slower peformance
+oralce, mysql, sqllite
+
+
+
+Non Relational Database (mongodb) -> is the document based database
+Data will be stored as document structure, key - value pair
+flexible in the schema
+JSON/BSON (Binary JSON) .....just our normal JSON
+{
+    name: "venkat",
+    address: "bangalore"
+}
+analytics, IOT, social media, Media and Entertainment
+peformance scalable is there
+
+js -> react, angular
+
+
+
+css -> 
+bootstrap
+tailwind
+
+SQL ->
+mysql
+oralce
+postgresQl
+
+
+
+
+
+
+
+
+
+

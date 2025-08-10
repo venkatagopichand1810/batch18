@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register, .login {
+  background-color: bisque;
+  padding: 50px;
+  outline: 2px solid black;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px; 
+  border: 2px solid black; 
+  border-radius: 5px;
+}
+
+label {
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: orchid;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(246, 132, 124);
+}

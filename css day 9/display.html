@@ -1,0 +1,48 @@
+
+<!-- diplay: -->
+ <!-- <style>
+    .inner-box {
+        display: none; 
+        visibility: hidden;
+    }
+ </style> -->
+
+
+<!-- <div class="inner-box">
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s">
+</div>
+
+<header>
+    this is header section
+</header> -->
+
+
+
+<!-- display none the element will not show  -->
+
+<style>
+    #menu {
+        display: none;
+        background-color: skyblue;
+        padding: 10px;
+    }
+
+</style>
+
+<button onclick="toggleMenu()">MENU</button>
+<ul id = "menu">
+    <li>Home</li>
+    <li>services</li>
+    <li>contact</li>
+</ul>
+
+<script>
+    function toggleMenu() {
+        let menu = document.getElementById("menu");
+        if(menu.style.display === "none"){
+            menu.style.display = "block"
+        } else {
+            menu.style.display = "none"
+        }
+    }
+</script>

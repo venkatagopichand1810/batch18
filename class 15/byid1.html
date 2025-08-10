@@ -1,0 +1,25 @@
+
+<input type="text" id = "textInput" oninput="countChar()">
+<p id = "charCount">Characters: 0</p>
+<style>
+    .venkat {
+        color: red;
+        background-color: orange;
+    }
+
+</style>
+<script>
+    function countChar() {
+        const text = document.getElementById("textInput").value;
+        const count = document.getElementById("charCount");
+        count.textContent = `venkattttttttttttttttttt: ${text.length}`;
+        if(text.length > 20){
+            // count.style.color = "red"
+            count.classList.add("venkat")
+        } else {
+            // count.style.color = "black"
+            count.classList.remove("venkat")
+        }
+    }
+</script>
+

@@ -1,0 +1,117 @@
+
+1) create a database
+
+cmd: use databasename
+
+2) create the collection 
+
+db.createCollection("students")
+
+
+-------------------
+
+use batch18employees
+db.createCollection("employees")
+db.employees.insertMany([
+ {
+    name: "ram",
+    age: 30,
+    department: "Engineering", 
+    skills: ["javascript", "MongoDB", "Typescript"],
+    salary: 95000,
+    email: "ram.engineer@gmail.com",
+    phone: "+91-098767867",
+    address: {
+        street: "12 tech park", 
+        city: "bangalore", 
+        state: "karnataka", 
+        pincode: "560001"
+    },
+    joiningDate: new Date("2019-03-15"),
+    isActive: true,
+    projects: ["Internal Tool", "MERN Project"],
+    manager: "venkat"
+ },
+
+
+  {
+    name: "Jack",
+    age: 26,
+    department: "HR", 
+    skills: ["Managing", "Interviews", "income tax"],
+    salary: 65000,
+    email: "Jack.HR@gmail.com",
+    phone: "+91-78416412211",
+    address: {
+        street: "Ecospace", 
+        city: "bangalore", 
+        state: "karnataka", 
+        pincode: "560009"
+    },
+    joiningDate: new Date("2020-04-25"),
+    isActive: true,
+    projects: ["guvi recruitment", "New joiningDate"],
+    manager: "Ram"
+ }
+
+])
+
+
+
+find all employees in the Engineering department
+
+db.employees.find({department: "Engineering"})
+
+find the emplyees who are active 
+db.employees.find({isActive: true})
+
+
+find the emp whose age is > 30 
+db.employees.find({age: {$gt: 30}})
+
+
+find the emplyess whose age is less than or equal to 30 
+db.employees.find({age: {$lte: 30}})
+
+
+find the employees with salary equal to 60000
+db.employees.find({salary: 6000})
+
+
+find the employees who know "MongoDB"
+db.employees.find({skills: "MongoDB"})
+
+
+find the employees who live in hyderabad 
+db.employees.find({"address.city": "hyderabad"})
+
+find th employees who joined after jan 1 2020
+db.employees.find({joiningDate: {$gt: new Date("2020-01-01)}})
+
+find employees whose age is not equal to 30
+
+db.employees.find({age: {$ne: 30}})
+
+find the employees who are b/w 25 and 35 years old
+db.employees.find({age: {$gte: 25, $lte: 35}})
+
+
+find the emplyees who live in karnataka
+db.employees.find({"address.state" : "karnataka"})
+
+find the employees who have exactly 2 skill
+db.employees.find({skills: {$size: 2}})
+
+find the employees who are 45 years old and live in hyderabad
+
+db.employees.find({age: 45, "additonally.city" : "hyderabad"})
+
+
+sir how we can find that skill include "%Tax%" <- this is from mysql query so how can i implement here?
+
+db.employees.find({skills: {$eleMatch : {$regex: /java/i}}})
+
+
+active employees in engineering with salary > 70000
+
+db.employees.find({isActive: true, department: "Engineering", salary: {$gt: 70000}})

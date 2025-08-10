@@ -1,0 +1,159 @@
+<!-- <script>
+    
+function calculate(a, b, callback){
+    return callback(a, b)
+}
+
+
+function add(x, y) {
+    return x + y;
+}
+
+
+console.log(calculate(10, 30, add))
+</script> -->
+
+
+<!-- <script>
+
+function calculate(a, b, venkat){
+    return venkat(a, b)
+}
+
+
+function add(x, y) {
+    return x + y;
+}
+
+function substract(x, y) {
+    return x - y;
+}
+
+function muliply(x, y) {
+    return x * y;
+}
+
+
+
+console.log(calculate(10, 30, add));
+console.log(calculate(10, 30, substract));
+console.log(calculate(10, 30, muliply));
+
+</script> -->
+
+
+<!-- <script>
+
+    // callback hell...muliple nested callbacks
+
+    function step1(callback) {
+        setTimeout(() => {
+            console.log("Pizza is ordered");
+            callback();
+        }, 1000)
+    }
+
+
+    function step2(callback) {
+        setTimeout(() => {
+            console.log("Preparing pizza");
+            callback();
+        }, 1000)
+    }
+
+    function step3(callback) {
+        setTimeout(() => {
+            console.log("Delivery agent assigned");
+            callback();
+        }, 1000)
+    }
+
+    function step4(callback) {
+        setTimeout(() => {
+            console.log("out for delivery");
+            callback();
+        }, 1000)
+    }
+
+
+    function step5(callback) {
+        setTimeout(() => {
+            console.log("Delivered");
+            callback();
+        }, 1000)
+    }
+
+    function step6(callback) {
+        setTimeout(() => {
+            console.log("Customer started having food");
+            callback();
+        }, 1000)
+    }
+
+
+    function step7(callback) {
+        setTimeout(() => {
+            console.log("Feedback");
+            callback();
+        }, 1000)
+    }
+
+
+
+    step1(() => {
+        step2(() => {
+            step3(() => {
+                step4(() => {
+                    step5(() => {
+                        step6(() => {
+                            step7(() => {
+                                console.log("finally he ate")
+                            })
+
+                        })
+                    })
+                })
+            })
+        })
+    })
+</script> -->
+
+
+
+
+<script>
+    function getUserData(callback){
+    setTimeout(() => {
+        console.log("fetching user data");
+        callback({userId: 1, name:"venkat"})
+    })
+
+}
+
+function getUserOrders(userId, callback) {
+    setTimeout(() => {
+        console.log(`Fetching orders for the userID : ${userId}`)
+        callback([{orderId: 101}, {orderId: 102}])
+    })
+
+}
+
+function getOrderDetails(orderId, callback){
+    setTimeout(() => {
+        console.log(`fetching details for orderid: ${orderId}`)
+        callback({orderId: orderId, product: "Laptop", price: 1200})
+    })
+
+}
+
+getUserData((user) =>{
+    getUserOrders(user.userId,(orders) => {
+        getOrderDetails(orders[0].orderId, (orderDetails) => {
+            console.log("order details", orderDetails)
+            getOrderDetails(orders[1].orderId, (orderDetails) => {
+                console.log("order details", orderDetails)
+            })
+        })
+    })
+})
+</script>

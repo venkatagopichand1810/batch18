@@ -1,0 +1,13 @@
+when we create any FE application..the first file name should be index.html
+
+
+html 5 is not case sensitive
+
+
+html 4 -> case sensitive
+
+
+<!DOCTYPE html> -> tells to the browser that we are using HTML 5 
+
+
+google ranking algo + SEO (search engine optimization) -> top 

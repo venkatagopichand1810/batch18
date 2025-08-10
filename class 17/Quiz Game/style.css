@@ -1,0 +1,81 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(166, 189, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 46px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: rgb(77, 183, 224);
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    transition: background 0.3s ease;
+}
+
+/* disable hover effect after the selection */
+.btn:hover:not(.disabled){
+    background-color: burlywood;
+}
+
+.btn.correct {
+    background-color: green;
+}
+
+.btn.wrong {
+    background-color: rgb(219, 113, 113);
+}
+
+.timer {
+    color: blueviolet;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.prograss-bar {
+    width: 100%;
+    background-color: rgb(231, 81, 11);
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.progress {
+    height: 100%;
+    background-color: green;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.next-btn {
+    background-color: gold;
+    display: none;
+    margin-top: 20px;;
+}

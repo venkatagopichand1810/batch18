@@ -1,0 +1,211 @@
+
+ use products
+
+  db.flipkart.insertOne({name: "Laptop", category: "Electronics", price:45000, stock: 50})
+
+  db.flipkart.find()
+
+  db.flipkart.insertOne({name: "SmartPhone", category: "Electronics", price:20000, stock: 100})
+
+
+   db.flipkart.insertMany([{name: "Shirt", category: "Clothing", price: 1500, stock: 200}, 
+   {name: "Jeans", category: "Clothing", price: 2500, stock: 90}, 
+   {name: "Book", category: "Education", price: 500, stock: 300}])
+
+
+
+  db.flipkart.find()
+
+
+  1) products with price greater than 2000
+ db.flipkart.find({price: {$gt: 2000}})
+
+ 2) products with stock less thatn or equal to 100
+ db.flipkart.find({stock: {$lte: 100}})
+
+ 3)  products with price not equal to 500
+  db.flipkart.find({stock: {$ne: 100}})
+
+ 4) products where category in either Electronics or Clothing
+ db.flipkart.find({category: {$in: ["Electronics", "Clothing"]}})
+
+ 5) products where the category is not in Education
+ db.flipkart.find({category: {$nin: ["Education"]}})
+
+ 6) find the products with price > 2000 And stock < 100
+
+ db.flipkart.find({$and : [{price: {$gt: 2000}}, {stock: {$lt: 100}}]})
+
+
+6) find the products with category clothing or stock  > 100
+ 
+  db.flipkart.find({$or : [{category: "Clothing"}, {stock: {$gt : 100 }}]})
+
+
+7) products with exact name...Laptop
+db.flipkart.find({name: "Laptop"})
+
+8) with stock between  50, and 200
+db.flipkart.find({stock: {$gte: 50, $lte: 200}})
+
+9) find the products not in category Electronics
+ db.flipkart.find({category: {$ne: "Electronics"}})
+
+10) find the products sorted by price by ascending
+db.flipkart.find().sort({price: 1})
+
+11) find the products sorted by descending
+db.flipkart.find().sort({price: -1})
+
+12) find the top 3 expensive products 
+ db.flipkart.find().sort({price: -1}).limit(3)
+
+ 13) limit only 3 results
+ db.flipkart.find().limit(3)
+
+ 14) skip first 2 results
+  db.flipkart.find().skip(2)
+
+ 15) skip 2 results and limit 2 pagination 
+
+ db.flipkart.find().skip(2).limit(2)
+
+
+ 16) update the price for Laptop to 48000 
+ db.flipkart.updateOne({name: "Laptop"}, {$set : {price: 48000}})
+
+ 17)  update the stock for Education to 1300 
+ db.flipkart.updateOne({category: "Education"}, {$set : {stock: 1300}})
+
+18) add a new field rating: 4.5 to all Electronics category
+ db.flipkart.updateMany({category: "Electronics"}, {$set: {rating: 4.5}})
+
+19) increase the stock of book by 50 
+db.flipkart.updateOne({name: "Book"}, {$inc: {stock: 50}})
+
+20) delete one product with name Jeans
+db.flipkart.deleteOne({name: "Jeans"})
+
+21) delete all the products with stock less than 100
+db.flipkart.deleteMany({stock: {$lt: 100}})
+
+
+22) to find the total documents
+db.flipkart.countDocuments()
+
+23) finde the total documents with category Electronics
+db.flipkart.countDocuments({category: "Electronics"})
+
+
+projection
+
+24) show only name and price
+db.flipkart.find({}, {name: 1, price: 1})
+ db.flipkart.aggregate([{ $project: {name:1, price: 1, _id: 0}}])
+
+25) show only name and price and hide _id
+db.flipkart.find({}, {name: 1, price: 1, _id: 0})
+
+ db.flipkart.find({}, {name: 1, _id: 0})
+
+26)  db.flipkart.find({}, {price: 1, name: 1, _id: 0}).sort({price: -1})
+
+27) db.flipkart.distinct("category")
+
+
+
+aggregate......
+
+only name and price
+
+
+project and aggregate
+
+1) Add a new filed inStock = true, if stock > 0 
+
+ db.flipkart.aggregate([ { $project: {name: 1, _id: 0, inStock: {$gt: ["$stock", 0]}}}])
+
+
+ convert the name to upperCase
+ db.flipkart.aggregate([
+    {
+        $project: {
+            name: {$toUpper: "$name"}
+        }
+    }
+ ])
+
+
+show the price with tax 18% 
+
+db.flipkart.aggregate([
+    {
+        $project: {
+            name: 1,
+            price: 1,
+            priceWithTax: { $multiply: ["$price", 1.18]}
+        }
+    }
+])
+
+
+name and category: Shirt - Clothing
+db.flipkart.aggregate([
+    {
+        $project: {
+            productInfo: {$concat: ["$name", "-----", "$category"]}
+        }
+    }
+])
+
+
+
+product with price > 3000 and stock > 20
+db.flipkart.find({
+    $and: [
+        {price: {$gt: 3000}},
+        {stock: {$gt: 20}}
+    ]
+})
+
+
+ db.flipkart.find({ $and: [ {category: "Electronics"}, {stock: { $gte: 100}}]})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+operator:    Meaning
+
+$gt -> greater than
+$lt -> less than
+$gte: greater than or equal
+$lte: less than or equal
+$eq -> equal
+$ne -> not equal
+$in -> in array
+$nin -> not in array
+$and -> logical AND
+$or -> logical OR
+
+
+

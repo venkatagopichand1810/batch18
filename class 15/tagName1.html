@@ -1,0 +1,34 @@
+
+<h2>Registration Form</h2>
+<form id = "registrationForm">
+    <input type="text" placeholder="Enter Your First Name"><br><br>
+    <input type="text" placeholder="Enter Your Last Name"><br><br>
+    <input type="email" placeholder="Enter Your Email Address"><br><br>
+    <button type="button" onclick="validateForm()">Submit</button>
+
+    <script>
+        function validateForm() {
+            // get all the elements from the form
+            const inputs = document.getElementById("registrationForm").getElementsByTagName('input')
+            let isValid = true;
+
+            for(let i =0 ; i<inputs.length; i++){
+                // check if the input field is empty
+                if(inputs[i].value === ''){
+                    inputs[i].style.border = "2px solid red";
+                    isValid = false
+                } else {
+                    inputs[i].style.border = ''
+                }
+            }
+
+            if(isValid){
+                alert("FORM submitted successfully")
+            } else {
+                alert("Please fill all the fields")
+            }
+            
+
+        }
+    </script>
+</form>

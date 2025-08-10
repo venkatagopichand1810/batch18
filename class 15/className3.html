@@ -1,0 +1,18 @@
+<div class="row">Row 1</div>
+<div class="row">Row 2</div>
+<div class="row">Row 3</div>
+<div class="row">Row 4</div>
+<div class="row">Row 5</div>
+<div class="row">Row 6</div>
+
+<script>
+    const rows = document.getElementsByClassName('row');
+    for(let i =0; i< rows.length; i++){
+        if(i % 2 === 0){
+            rows[i].style.backgroundColor = "blue"
+        } else {
+             rows[i].style.backgroundColor = "green"
+        }
+    }
+
+</script>

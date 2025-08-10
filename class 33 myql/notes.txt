@@ -1,0 +1,24 @@
+
+//students who are either inactive  or from chennai
+
+// students who are not from computer science department
+
+//students who are older than 25 but youger than 27
+
+// students who are not female
+
+// students who are older than 20 or have grade "A"
+
+// i wanted top 4 yougest students
+
+// i wanted find the students where name is not starting with V
+
+// find the students whose phone number does not contain '98'
+
+// students whose name has at least 2 "a" "a"
+
+// students from departments ending with e
+
+// i wanted to print uppercase city UPPER(city)
+
+// name and length(name)

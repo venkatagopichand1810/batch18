@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* navigation bar */
+
+header {
+    background-color: #0a0101;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.hero {
+    background: url("../images/hero.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60vh;
+    background-position: top;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 10px black;
+}
+.dream-travel {
+    color: orange;
+    font-size: 66px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+    outline: 3px solid orange;
+    border-radius: 25px;
+    margin-left: 36px;
+    font-size: 22px;
+}
+
+.nav-links a.login {
+    text-decoration: underline;
+    color: orange;
+}
+
+.about-us {
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    background: url("https://img.freepik.com/premium-vector/premium-background-gradient-black-white-tones_391563-1314.jpg") center/cover;
+}
+
+.about-us h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.5em;
+}
+
+.who-we-are {
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 900px;
+    font-size: 24px;
+
+}
+
+.our-services {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.service-card {
+    background-color: rgb(240, 229, 185);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(46, 44, 44);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #311c31;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+
+.service-card p {
+    color: #311c31;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 25%;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.footer-column h3 {
+    font-size: 27px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(85, 82, 82);
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+   margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+   color: white;
+   text-decoration: none;
+   transition: 0.5s;
+   font-size: 22px;
+ }
+
+ .footer-column ul li a:hover {
+    color: #eaa0a0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #111;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+
+  }
+
+
+
+

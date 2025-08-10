@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Queries</title>
+
+        <style>
+            /* default background color for the large screens (desktops) */
+            body {
+                background-color: orange;
+                text-align: center;
+                padding: 50px;
+                font-size: 100px;
+                background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=600");
+                background-repeat: no-repeat;
+                /* background-position: bottom left right top;
+                background-size: cover; */
+            }
+
+
+            /* extra small devices phones upto 480px*/
+            @media screen and (max-width: 480px){
+                body {
+                    background-color: lightcoral;
+                    font-size: 20px;
+                    background: url("https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=600");
+                    background-repeat: no-repeat;
+                }
+            }
+
+          /* small devices (phones and small tablets) 481px to 768px */
+            @media screen and (min-width: 481px) and (max-width: 768px){
+                body {
+                    background-color: green;
+                    font-size: 200px;
+                    background: url("https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=600");
+                    background-repeat: no-repeat;
+                }
+            }
+
+
+            /* medium devices (Tablets & small laptops) 769px to 992px */
+            @media screen and (min-width: 769px) and (max-width: 992px){
+                body {
+                    background-color: rgb(255, 2, 230);
+                    font-size: 50px;
+                    background: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600");
+                    background-repeat: no-repeat;
+                }
+            }
+
+            /* large devices (desktops) 993px to 1200px */
+            @media screen and (min-width: 993px) and (max-width: 1200px){
+                body {
+                    background-color: rgb(255, 0, 0);
+                    font-size: 50px;
+                    background: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600");
+                    background-repeat: no-repeat;
+                }
+            }
+
+             /* extra large devices (big screens, tvs) above  1200px*/
+            @media screen and (min-width: 1201){
+                body {
+                    background-color: rgba(21, 247, 183, 0.47);
+                    font-size: 150px;
+                    background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=600");
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        Media Queries    
+    </body>
+</html>
+
+
+<!-- 
+
+extra small devices (phones)  -> max-width: 576px
+
+small devices (tablets) -> min-width: 577px and max-width: 768px
+
+
+medium devices (small laptops) -> min -width: 769px and max-width: 992px
+
+large devices (desktops) min-width: 993px and max-widthL 1200px
+
+extra large: min-width: 1201px
+
+
+orientation: landscape and portrait 
+
+
+
+
+-->

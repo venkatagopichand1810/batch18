@@ -1,0 +1,20 @@
+
+// State management is used to maintain the state of the application....we are going use useContext hook in functional compoentns to fix the prop drilling problems
+
+// import { createContext } from "react";
+
+
+
+// prop drilling -> props to all the nested components which is not good for the larger applications
+
+// useContext -> where are going to create the centralized state or store,,which will fix the prop drilling
+
+
+
+//useContext
+
+//useContext ----- is the react hook used to access the values from the context(centralized store).. It helps to avoid the prop drilling
+
+
+// const value = useContext(myContext), 
+// createContext

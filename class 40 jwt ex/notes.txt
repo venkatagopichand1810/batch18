@@ -1,0 +1,17 @@
+JSON web Token 
+
+1) Authentication: verify the user indentity, email and password
+2) authorization : granting the access
+
+JWT...
+
+Header, payload signature
+
+header>...contains the type of the token and algorithm used
+payload....contains the data...userId, email, addess
+signature: verify the token
+
+
+gmail
+
+access

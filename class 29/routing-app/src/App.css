@@ -1,0 +1,41 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: antiquewhite;
+  margin: 0px;
+  padding: 20px;
+}
+
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+  margin-bottom: 25px;
+}
+
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+.student-card {
+  background-color: rgb(230, 168, 168);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-10px);
+}
+
+.btn-back {
+  background-color: orange;
+  padding: 20px
+}

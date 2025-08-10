@@ -1,0 +1,42 @@
+
+<style>
+    .highlight {
+        color: white;
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<p class="message">Message 1</p>
+<button onclick="highlightMessage()">Highlight</button>
+<button onclick="removeHightlight()">Remove Highlight</button>
+
+<script>
+    // function to add the highlight class
+
+    function highlightMessage() {
+        const message = document.getElementsByClassName("message");
+        for(let i = 0; i < message.length; i++){
+            message[i].classList.add("highlight")
+        }
+        
+    }
+
+    // function to remove the highlight class
+
+    function removeHightlight() {
+        const message = document.getElementsByClassName("message");
+        for(let i = 0; i < message.length; i++){
+            message[i].classList.remove("highlight")
+        }
+    }
+</script>

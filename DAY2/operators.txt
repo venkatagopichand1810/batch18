@@ -1,0 +1,40 @@
+arithmetic operators
+
+addtion
+substraction 
+mulipliacation
+divison 
+modules(remainder)
+exponentiation 
+
+
+assignment operators
+used to assin values to the variables
+
+comparison operators
+
+equal to 
+strict equal or equality operators
+not equal 
+stict not equal 
+greater than 
+less than
+>=
+<=
+
+
+logic operators
+Logical and and logic or logical not
+
+
+
+
+bitwise operators
+ternary operators
+String operators
+type operators
+unary operators
+
+
+optional chaining operators
+nullision coestion operators

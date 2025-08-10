@@ -1,0 +1,13 @@
+import ComponentE from "./ComponentE"
+
+function ComponentD() {
+
+    return (
+        <>
+            <ComponentE />
+        </>
+    )
+
+}
+
+export default ComponentD

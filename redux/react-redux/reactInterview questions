@@ -1,0 +1,114 @@
+
+what is react and why we have to use react, why not angular or other lib or framework
+what is VM architecture
+what are the main features of react
+what are the advantages of react 
+what is diff b/w virtual dom and real dom 
+what is folder structure of the react and explain 
+what will happen when we run the react application, explain the flow
+what is JSX in react 
+what are the different jsx rules
+what is frament
+how to setup the react application 
+if browser going to understand jsx? 
+what are props and how to use them 
+importance of props 
+how to pass data from parent to child component 
+how to pass the data from the child to parent component
+how to create different components in react and how to combine in app.js
+what are differnt types of components in react
+what is functional component, and how to create it
+what is class component 
+diff b/w functional component and class component
+what is stateful and stateless
+what is useState and how to maintain the state of the application 
+syntax for usestate and explain the syntax of useState with example
+what is key prop and why, where we will use key prop
+what is hook and why hooks are important in react 
+is props are mutable?
+is state is immutable?
+differece b/w prop and state
+what is children or composition prop in react
+what is HOC higher order component in react -> one compoennt -> o/p -> into anthoter component -> new component
+how to create the reusable components in react
+how to create the forms in react
+what are controlled forms 
+what are uncontrolled forms 
+diff b/w controlled and uncontrolled components forms
+what is useRef and where we use useRef
+what is preventDefault and its usage
+what is memo and its imporance 
+what is useMemo 
+what is callback 
+what is prop drilling in react and its disadvantages
+what are different hooks in functional component
+what are the lifecycle methods in react class component
+componentDidMount(), componentDidUpdate(), componentWillUnmount(), shouldComponentUpdate()
+how to setState works in react
+what are differnt array methods and give examples with respect to react 
+
+what are the different ways to apply the styles in react
+how to apply the inline styling in react
+how do we handle the events in react
+what is syntheticEvent
+
+what are react hooks 
+what is useEffect in react and why we need to useEffect
+how to do an api call in react using useEffect with fetch 
+how to do an api call in react using useEffect with axios
+how to do an api call in react using fetch and axios with async & await 
+what are the different use cases of useEffect 
+what is the importantance of dependency array in useEffect
+what is useReducer hook in react and how it is different with useState
+where we use useReducer, provide the syntax
+what is initialstate, dispatch, reducer function in useReducer
+
+what is contextAPI in react and what is imporance of it, where we have to use
+what is conditional rendering, how to implement conditional rendering in react
+how do we handle the forms in react 
+how do we handle the form validation in react
+how do we render the list in react and how to add the key prop on it 
+what happens if key is not provided in a list
+how to handle the errors in react
+
+what are error boundaries in react
+how do we create the error boundary in react
+what is React memo
+what are the benefits of lazy loading in react
+what is purecomponent
+how do we prevent the rerenders in react
+how do we use React.Frgament 
+
+what is react router
+what is browserrouter, routes, route and link 
+how to setup react router
+what is the use of useparams in react
+what is the purpose of useNavigate 
+what is usage of useLocation 
+what is outlet
+how to implement the nested routing in react 
+how to implement dynamic routing in react 
+how to implement redirect 
+
+what is react.lazy
+what is the state managmenet 
+what is store 
+what is reducer 
+what are actions 
+waht is useSelector and useDispatcher
+why we have to use react redux over usecontext api, why not useState
+what is redux thunk and redux toolkit, saga 
+what is SSR(server side rendering in react)
+
+what is react suspense and how do use suspense with the data fetching in react
+what is portals and refs in react 
+how do we create the portals in react 
+diff forwardref and useRef
+
+
+
+
+
+
+
+

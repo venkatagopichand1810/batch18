@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        // const mobiles = ["LG 0 ", "oppp 1", "vivo 2"];
+        // // console.log(mobiles[0])
+        // // console.log(mobiles[2])
+        // // console.log(mobiles.length)
+        // for (let i = 0; i < mobiles.length; i++) {
+        //     console.log(mobiles[i])
+        // }
+
+        // let name = "venkat"; //
+        // for (let something of name) {
+        //     console.log(something)
+        // }
+
+
+
+        // const person = {
+        //     name: "ram", //key = name - value/property = ram
+        //     age: 55,
+        //     city: "bangalore"
+        // }
+        // for (let key in person) {
+        //     console.log(`${key} : ${person[key]}`)
+        // }
+
+        // let number = 0;
+        // while(number <= 0){
+        //     number = prompt("enter the positive number")
+        // }
+        // alert("You have entered" + number)
+
+        // const mobiles = [];
+        // mobiles.push
+
+        // let isConnected = false;
+        // while(!isConnected){
+        //     console.log("trying to connect")
+        //     isConnected = Math.random() > 0.5
+        // }
+        // console.log("connected to the server")
+
+        // let count = 0;
+
+        // while(true){
+        //     count++;
+        //     console.log("count", count)
+
+        //     if(count === 5){
+        //         console.log("breaking the loop");
+        //         break
+        //     }
+        // }
+
+        // let numbers = [];
+
+        // let Totalinputs = 5;
+
+        // for(let i =0; i<Totalinputs; i++){
+        //     let input = prompt(`enter the number ${i + 1}`);
+        //     numbers.push(input)
+        // }
+        // alert(`You have enterd the nubmes ${numbers}`);
+
+        // let number = [];
+        //  while(true){
+        //     let input  = prompt("enter the number");
+        //     if(input.toLowerCase() === 'stop'){
+        //         break;
+        //     }
+        //     number.push(input)
+        //  }
+        //  alert(`You have enterd the nubmes ${numbers}`);
+
+
+        // function welcome(name) {
+        //     console.log(`hello ${name}`)
+        //     console.log(`hello ${name}`)
+
+        // }
+        // // calling the welcome function also i am passing a value
+        // welcome("yokesh");
+        // welcome("kavitha");
+        // welcome("priya");
+        // welcome("bala");
+
+
+        // function printNumbers(n) {
+        //     for (let i = 1; i <= 10; i++) {
+        //         console.log(i)
+        //     }
+
+        // }
+
+        // printNumbers(10)
+
+
+        function applySomething(a, b, operation) {
+            return operation(a, b)
+
+        }
+
+        function add(a, b) {
+            return a + b
+        }
+
+        function sub(a, b) {
+            return a - b
+        }
+
+        function muliple(a, b) {
+            return a * b
+        }
+
+        // console.log(add(10, 20));
+
+        console.log(applySomething(10, 20, add))
+        console.log(applySomething(10, 20, sub))
+        console.log(applySomething(10, 20, muliple))
+
+
+    </script>
+</body>
+
+</html>

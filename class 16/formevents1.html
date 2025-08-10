@@ -1,0 +1,53 @@
+<form id = "userForm">
+    <label for="email">Email:</label>
+    <input type = "email" id = "email">
+    <br><br>
+    <label for = "age">Age:</label>
+    <input type = "number" id = "age">
+    
+</form>
+
+
+<script>
+    const email = document.getElementById("email");
+    const age = document.getElementById("age");
+
+    email.addEventListener("input", (event) => {
+        console.log("email value changed", event.target.value)
+    })
+
+
+    age.addEventListener("change", (event) => {
+        console.log("Age change to", event.target.value)
+    })
+
+    email.addEventListener("focus", (event) => {
+        console.log("email field focused")
+    })
+
+
+    email.addEventListener("blur", (event) => {
+        console.log("email field blurred", event.target.value)
+    })
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+ input -> fires every time when the vlaue changes
+ change -> fieres when the values changes and loses focus
+ focus -> fires when the input field is fouced
+ blur -> fires when the input field losses the focus
+
+
+
+-->

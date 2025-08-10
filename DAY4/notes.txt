@@ -1,0 +1,6 @@
+hoisting..
+The default behavior of moving declartions to the top of the scope before the code executes....
+
+let, var, const and function declartions are hosited....
+
+

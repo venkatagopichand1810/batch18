@@ -1,0 +1,20 @@
+error handling -> used to manage and responde to the runtime errors
+
+
+javascript provides error handling mechanisms
+
+try -> try block contains the code that may execute, maynot not execute
+catch -> block executes when an error occurs in the try block
+
+throw -> throw the user message
+
+finally --> which is going to execute regardless of success or failure
+
+
+try {
+    //code that may give error
+} catch(error){
+    //code to handle the error
+} finally {
+    //code that will always execute
+}

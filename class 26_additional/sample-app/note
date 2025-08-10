@@ -1,0 +1,16 @@
+
+// useEffect is the react HOOk used to perfrom side effects in the functional components
+
+// //side effects
+// 1) fetching the data from the api
+// 2) listening the browser events
+// 3) setting up timer and subscriptions
+// 4) dom manually
+
+// useEffect(() => {
+//     //code for components
+
+//     return() => {
+//         //optional cleaning up the compoennt
+//     }
+// }, [dependecies])

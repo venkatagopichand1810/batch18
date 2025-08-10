@@ -1,0 +1,6 @@
+DOM Document Object Model..when we create the Document the browser creates the DOM tree from the HTML Document
+
+
+DOM allows javascript to access, update, modify, create the structure and content of the page
+
+Every HTML element is a node in the DOM Tree, javascript will target and maniuplate them

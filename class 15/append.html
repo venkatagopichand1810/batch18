@@ -1,0 +1,36 @@
+<!-- appendChild method allows us to add a new element as the last child of the specified parent element -->
+
+
+<!-- <div id = "container">
+    <h1>Venkat</h1>
+</div>
+
+<script>
+    const container = document.getElementById("container");
+
+    // create the new element
+    const newElement = document.createElement("p");
+    newElement.textContent = "new content added";
+
+</script> -->
+
+<!-- append method allows us to append muliple elements at once  -->
+
+<div id = "container">
+    <h1>Venkat</h1>
+</div>
+
+<script>
+    const container = document.getElementById("container");
+
+    // create the new element
+    const newElement = document.createElement("p");
+    newElement.textContent = "new content added";
+
+    // create the new element
+    const newElement1 = document.createElement("p");
+    newElement1.textContent = "new content added";
+
+    container.append(newElement, newElement1)
+
+</script>

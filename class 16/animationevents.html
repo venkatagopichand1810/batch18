@@ -1,0 +1,86 @@
+
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: chocolate;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        animation: venkat 3s;
+    }
+
+    @keyframes venkat {
+        from {
+            left: 0
+        }
+        to {
+            left: 500px
+        }
+    }
+</style>
+
+
+<div class="box"></div>
+
+
+<script>
+    const box = document.querySelector('.box');
+
+    //when the animation starts trigger the event
+    box.addEventListener("animationstart", () => {
+
+        box.style.backgroundColor = "darkblue"
+    })
+
+      //when the animation iterration trigger the event
+      box.addEventListener("animationiteration", () => {
+
+        box.style.backgroundColor = "green"
+    })
+
+    
+      //when the animation iterration trigger the event
+      box.addEventListener("animationend", () => {
+
+        box.style.backgroundColor = "orange"
+    })
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+ 
+animationStart..fies when the animation starts 
+
+animationiteration -> fires when the animation complete one cycle and state the new one
+
+animationend -> fires when the css animation finishes 
+
+-->
+

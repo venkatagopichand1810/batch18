@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+
+            /* .grid-container {
+                display: grid;
+                grid-template-columns: 10% 20% 60%;
+                gap: 20px;
+            } */
+
+             .grid-container {
+                /* display: grid; */
+                /* grid-template-columns: 1fr 2fr 3fr; */
+                /* grid-template-columns: repeat(3, 1fr); */
+                /* grid-template-columns: 1fr 1fr 1fr; */
+                /* grid-template-columns: repeat(4, 1fr); */
+                /* grid-template-columns: 150px 1fr 2fr; */
+                /* grid-template-columns: auto auto auto auto; */
+                /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+
+                /* gap: 20px; */
+            } 
+
+
+
+            .item {
+                background-color: orange;
+                padding: 20px;
+                color: white;
+                text-align: center;
+            }
+
+
+            /* nested grid */
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .nested-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+                background-color: lightcoral;
+                padding: 10px;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <!-- <div class="grid-container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+        </div> -->
+
+
+        <div class="grid-container">
+            <div class="grid-item">Main Content</div>
+            <div class="nested-grid">
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+                <div class="item">Item 5</div>
+                <div class="item">Item 6</div>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+
+<!-- two dimenstional....both rows and columns simultaneously -->

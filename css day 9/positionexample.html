@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Positions</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .card {
+            position: relative;
+            border: 5px solid orange;
+            width: 250px;
+            height: 300px;
+            padding: 20px;
+            text-align: center;  
+        }
+
+        .more-details {
+            position: absolute;
+            bottom: 10px;
+            transform: translateX(-50%);
+            background-color: orange;
+            padding: 10px 12px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>Product AC</h2>
+        <p>Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/ LOR-əm IP-səm) is a dummy or placeholder text commonly used in graphic
+            design, publishing, and web development to fill empty spaces in a layout that does not yet have content.</p>
+        <button class="more-details">Click for Details</button>
+    </div>
+
+</body>
+
+</html>
